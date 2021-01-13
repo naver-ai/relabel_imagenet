@@ -1,0 +1,40 @@
+model:
+  arch: 'resnet50'
+data:
+  dataset: 'imagenet'
+  data_path: '/home/data/ILSVRC2015/'
+  image_size: 224
+  rrc_minimum: 0.08
+  crop_ratio: 0.875
+optim:
+  optimizer: 'sgd'
+  epochs: 100
+  start_epoch: 0
+  bn:
+    momentum: 0.9
+    eps: 1.e-5
+  batch_size: 512
+  lr:
+    init: 0.5
+    decay_type: 'cos'
+  warmup:
+    lr: 0.0
+    epochs: 5
+  nesterov: True
+  momentum: 0.9
+  wd:
+    base: 1.e-5
+  label_smoothing: 0.0
+compute:
+  seed: -1
+  gpu: -1
+  opt_level: 'O1'
+  num_workers: 32
+  distributed:
+    use: True
+    num_processes_per_node: 1
+    url: 'tcp://127.0.0.1:6946'
+    backend: 'nccl'
+util:
+  print_freq: 250
+  val_batch_size: 512

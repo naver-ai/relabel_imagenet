@@ -1,0 +1,29 @@
+model:
+  arch: 'resnet50'
+data:
+  cutmix:
+    prob: 0.0
+    beta: 0.0
+    off_epoch: 5
+  relabel:
+    use: True
+    path: '/home/data/relabel_imagenet/'
+optim:
+  optimizer: 'sgd'
+  epochs: 300
+  start_epoch: 0
+  batch_size: 1024
+  lr:
+    init: 0.1
+    decay_type: 'cos'
+  warmup:
+    lr: 0.0
+    epochs: 5
+  nesterov: True
+  momentum: 0.9
+  wd:
+    base: 1.e-4
+  label_smoothing: 0.0
+util:
+  test_only: False
+  test_weight_file: ''

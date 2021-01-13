@@ -1,0 +1,5 @@
+git+https://github.com/NVIDIA/apex
+munch
+adamp
+fire
+pyyaml

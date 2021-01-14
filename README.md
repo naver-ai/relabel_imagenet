@@ -1,6 +1,6 @@
 ## Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels 
 
-Official PyTorch implementation of **Re-labeling ImageNet** | [Paper]() | [Pretrained Models](#experiments) 
+Official PyTorch implementation of **Re-labeling ImageNet** | [Paper](https://arxiv.org/abs/2101.05022) | [Pretrained Models](#experiments) 
 
 **[Sangdoo Yun](https://sangdooyun.github.io/), Seong Joon Oh, Byeongho Heo, Dongyoon Han, Junsuk Choe, Sanghyuk Chun**
 
@@ -177,3 +177,11 @@ limitations under the License.
 ```
 
 ## Citation
+```
+@article{yun2021relabling,
+    title={Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels},
+    author={Yun, Sangdoo and Oh, Seong Joon and Heo, Byeongho and Han, Dongyoon and Choe, Junsuk and Chun, Sanghyuk},
+    year={2021},
+    journal={arXiv preprint arXiv:2101.05022},
+}
+```

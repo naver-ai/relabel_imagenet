@@ -1,3 +1,5 @@
+## Accepted at CVPR 2021!
+
 ## Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels 
 
 Official PyTorch implementation of **Re-labeling ImageNet** | [Paper](https://arxiv.org/abs/2101.05022) | [Pretrained Models](#experiments) 

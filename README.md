@@ -1,4 +1,4 @@
-## Accepted at CVPR 2021!
+## Accepted at CVPR 2021 !!
 
 ## Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels 
 
@@ -29,8 +29,9 @@ We show that the models trained with localized multi-labels also outperforms the
 and various robustness benchmarks.
 
 
-## Updates
+## News
 - **Jan 14, 2021**: Initial upload
+- **Mar 1, 2021**: Accepted to CVPR 2021 as a poster
 
 ## Installation
 ### Dependancies

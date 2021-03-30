@@ -182,10 +182,10 @@ limitations under the License.
 ## Citation
 
 ```
-@article{yun2021relabel,
-    title={Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels},
-    author={Yun, Sangdoo and Oh, Seong Joon and Heo, Byeongho and Han, Dongyoon and Choe, Junsuk and Chun, Sanghyuk},
-    year={2021},
-    journal={arXiv preprint arXiv:2101.05022},
+@inproceedings{yun2021relabel,
+  title={Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels},
+  author={Yun, Sangdoo and Oh, Seong Joon and Heo, Byeongho and Han, Dongyoon and Choe, Junsuk and Chun, Sanghyuk},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year={2021}
 }
 ```

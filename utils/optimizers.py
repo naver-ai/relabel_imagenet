@@ -45,7 +45,6 @@ def warmup_learnig_rate(init_lr, warmup_lr, warmup_epochs,
 
 def adjust_learning_rate_cosine(epoch, iteration, dataset_len,
                                 epochs, warmup_epochs):
-    """Sets the learning rate to the initial LR decayed by 10 every 30 epochs"""
     total_iter = (epochs - warmup_epochs) * dataset_len
     current_iter = iteration + (epoch - warmup_epochs) * dataset_len
 

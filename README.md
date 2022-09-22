@@ -57,14 +57,14 @@ pip install -r requirements.txt
 ```
 ### Dataset
 1. Download the original ImageNet dataset and place it in `--data.data_path` directory. 
-2. Download [relabel_imagenet.tar (12GB)](https://www.dropbox.com/s/9sxigpec7fxq8wh/relabel_imagenet.tar?dl=0) and extract it in `--data.relabel.path` directory.
+2. Download [relabel_imagenet.tar (Dropbox)](https://www.dropbox.com/s/9sxigpec7fxq8wh/relabel_imagenet.tar?dl=0) (12GB) and extract it in `--data.relabel.path` directory. (if Dropbox is not working, try [google drive](https://drive.google.com/file/d/1iPzdlSRpNVOIvs0msHBfMWzHq2SFk3SE/view?usp=sharing) link.)
 
 The ReLabel's structure is the same as ImageNet (ILSVRC) dataset's.  
 ```
 root
  └─── n04355338
           └───── n04355338_22023.pt
-          └───── n04355338_2663.pt
+          └───── n04355338_2663.p
           └───── ...
  └─── n03786901
           └───── n03786901_5410.pt
